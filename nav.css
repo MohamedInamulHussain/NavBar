@@ -1,0 +1,88 @@
+#white
+{
+    width: 380px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+    box-shadow: white 0px 0px 30px ;
+    
+   top: 10vh;
+    border-radius: 10px 10px 10px 10px;
+}
+h1
+{
+    position: relative;
+    top:20px;
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+}
+#main
+{
+    height: 93px;
+    width: 350px;
+    background-color:  lightgray;
+    position: relative;
+    top:-45px;
+    
+    border-radius: 10px 10px 10px 0px;
+}
+body
+{
+    background-image:linear-gradient(to right,red,blue);
+}
+#round
+{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 252, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left:10px;
+    z-index:1;  
+    border: 10px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#smb1
+{
+    height: 20px;
+    width: 10px;
+    background-color: lightgray;
+    position: absolute;
+    border-radius: 0px 10px 0 10px;
+    top: 4px;
+    z-index:5;
+    left: -20px;
+}
+#smb2
+{
+    height: 25px;
+    width: 13px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+    border-radius: 0px 10px 0 10px;
+    top:0px;
+    z-index:1;
+    left: -13px;
+}
+ul
+{
+    list-style:none ;
+    float: left;
+    margin-top: 69px;
+}
+li
+{
+    float: left;
+    padding-left: 70px;
+    margin-left: -25px;
+    position:relative;
+    left:-49px;
+
+}
+#hom:hover{color:rgb(0, 252, 0)}
+#man:hover{color:rgb(0, 252, 0)}
+#set:hover{color:rgb(0, 252, 0)}

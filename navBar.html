@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="nav.css">
+        
+    </head>
+    <body>
+
+        <center>
+            <h1>NAV BAR</h1>
+        <div id="white"></div>
+        <div id="main">
+            <div id="round">
+                <div id="smb1"></div>
+                <div id="smb2"></div>
+            </div>
+            <div id="elem">
+                <ul>
+                    <li id="hom" >HOME</li>
+                    <li id="man">MAIN</li>
+                    <li id="set">SETTINGS</li>
+                </ul>
+
+            </div>
+        </div>
+        
+        </center>
+        <script>
+            var round=document.querySelector("#round");
+            var hom=document.querySelector("#hom");
+            var man=document.querySelector("#man");
+            var set=document.querySelector("#set");
+            hom.addEventListener("mouseenter",function()
+            {
+                round.style.left="10";
+            }
+            )
+            man.addEventListener("mouseenter",function()
+            {
+                round.style.left="100";
+            }
+            )
+            set.addEventListener("mouseenter",function()
+            {
+                round.style.left="200";
+            }
+            )
+
+        </script>
+    </body>
+</html>
